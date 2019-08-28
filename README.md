@@ -1,6 +1,6 @@
 # spring-boot-api-practice-2019-8-27-16-17-41-196
 
-@RequestMaping
+*@RequestMaping
 　　　用法：1.标记于一个被@Controller标注的类上 
 　　　　　　2.标记于被@Controller标注类里面的方法上面 
 　　　作用：用法1，表示该被标注类下面所有方法的父类标注（可以理解为所有用法2“继承”用法1）@RequestMaping有六个属性value、method、consumes、produces、params、headers 
