@@ -1,7 +1,8 @@
 # spring-boot-api-practice-2019-8-27-16-17-41-196
 
 * @RequestMaping
-　　　用法：1.标记于一个被@Controller标注的类上 
+　　　```
+   用法：1.标记于一个被@Controller标注的类上 
 　　　　　　2.标记于被@Controller标注类里面的方法上面 
 　　　作用：用法1，表示该被标注类下面所有方法的父类标注（可以理解为所有用法2“继承”用法1）@RequestMaping有六个属性value、method、consumes、produces、params、headers 
 　　　value：指定浏览器请求的地址； 
@@ -12,7 +13,7 @@
 　　　headers：指定request中必须包含某些指定的header值，才能让该方法处理请求； 
 　　　实例解释：如果要在浏览器访问Action类中的carRun方法，只需要本地域名+端口号+该标注所定义的value值即可(127.0.0.1:8080/car/carRun)　　 
 　　　@RequestMaping常用的记住value和method，更详细的介绍——》链接
-
+```
 * @Service
 　　　用法：用于标注业务层组件(Service层)上 
 　　　作用：标注于业务层组件上表示定义一个bean，自动根据所标注的组件名称实例化一个首字母为小写的bean。 
